@@ -1,15 +1,19 @@
 ﻿eventsApp.factory("eventData",
     function ($resource) {
-        var resource = $resource("Event/:id", { id: "@id" });
-
         return {
-            getEvent: function () {
-                return resource.get({ id: 2 });
+            getEvent: function (eventId) {
+                return $resource("Event/Get/:id", { id: "@id" }).get({ id: eventId });
+
+            },
+            setId: function () {
+               return  $resource("Event/GetLastId").get();
 
             },
             save: function (event) {
-                event.id = 999;
-                return resource.save(event);
+                return $resource("Event/Post/:id", { id: "@id" }).save(event);
+            },
+            getAllEvents:function() {
+                return $resource("Event/GetAll").query();
             }
 
         };

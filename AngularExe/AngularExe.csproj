@@ -103,8 +103,12 @@
     <Content Include="app\EditProfileFiles\Finished\EditProfile.html" />
     <Content Include="app\EditProfileFiles\Finished\EditProfileController.js" />
     <Content Include="app\EditProfileFiles\Finished\GravatarUrlBuilder.js" />
+    <Content Include="app\js\controllers\CacheSampleController.js" />
     <Content Include="app\js\controllers\EditProfileController.js" />
+    <Content Include="app\js\controllers\EventListController.js" />
+    <Content Include="app\js\controllers\MainMenuController.js" />
     <Content Include="app\js\services\GravatarUrlBuilder.js" />
+    <Content Include="CacheSample.html" />
     <Content Include="EditProfile.html" />
     <Content Include="app\EditProfileFiles\Original\EditProfileController.js" />
     <Content Include="app\EditProfileFiles\Original\GravatarUrlBuilder.js" />
@@ -131,9 +135,11 @@
     <Content Include="app\lib\bootstrap.min.js" />
     <Content Include="app\lib\jquery.min.js" />
     <Content Include="app\lib\underscore-1.4.4.min.js" />
-    <Content Include="EventDetails.html" />
+    <Content Include="templates\EventDetails.html" />
     <Content Include="Global.asax" />
-    <Content Include="NewEvent.html" />
+    <Content Include="Index.html" />
+    <Content Include="templates\EventList.html" />
+    <Content Include="templates\NewEvent.html" />
     <Content Include="scripts\angular-mocks.js" />
     <None Include="scripts\angular.intellisense.js" />
     <Content Include="scripts\angular.js" />

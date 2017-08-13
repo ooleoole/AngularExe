@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html ng-app="eventsApp">
+<head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="app/css/app.css" rel="stylesheet" />
+    <link href="app/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="navbar" ng-controller="MainMenuController">
+            <div class="navbar-inner">
+                <ul class="nav">
+                    <li><a href="#" ng-click="createEvent()">Create Event</a></li>
+                </ul>
+            </div>
+        </div>
+        <ng-view></ng-view>
+
+    </div>
+    <script src="app/lib/bootstrap.js"></script>
+    <script src="app/lib/jquery.min.js"></script>
+    <script src="app/lib/underscore-1.4.4.min.js"></script>
+    <script src="app/lib/angular/angular.js"></script>
+    <script src="app/lib/angular/angular-resource.js"></script>
+    <script src="app/lib/angular/angular-route.min.js"></script>
+    <script src="app/lib/angular/angular-sanitize.js"></script>
+    <script src="app/js/app.js"></script>
+    <script src="app/js/services/EventData.js"></script>
+    <script src="app/js/controllers/EventController.js"></script>
+    <script src="app/js/controllers/MainMenuController.js"></script>
+    <script src="app/js/controllers/EditEventController.js"></script>
+    <script src="app/js/controllers/EventListController.js"></script>
+    <script src="app/js/filters.js"></script>
+
+</body>
+</html>

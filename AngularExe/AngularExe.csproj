@@ -107,6 +107,8 @@
     <Content Include="app\js\controllers\EditProfileController.js" />
     <Content Include="app\js\controllers\EventListController.js" />
     <Content Include="app\js\controllers\MainMenuController.js" />
+    <Content Include="app\js\controllers\SampleDirectiveController.js" />
+    <Content Include="app\js\Directives\directives.js" />
     <Content Include="app\js\services\GravatarUrlBuilder.js" />
     <Content Include="CacheSample.html" />
     <Content Include="EditProfile.html" />
@@ -120,7 +122,6 @@
     <Content Include="app\js\app.js" />
     <Content Include="app\js\controllers\EditEventController.js" />
     <Content Include="app\js\controllers\EventController.js" />
-    <Content Include="app\js\directives.js" />
     <Content Include="app\js\filters.js" />
     <Content Include="app\js\services\EventData.js" />
     <Content Include="app\lib\angular\angular-resource.js" />
@@ -146,6 +147,7 @@
     <Content Include="scripts\angular.min.js" />
     <Content Include="scripts\web-server.js" />
     <None Include="scripts\_references.js" />
+    <Content Include="templates\SampleDirectives.html" />
     <Content Include="test\karma.conf.js" />
     <Content Include="test\lib\angular-mocks.js" />
     <Content Include="test\lib\sinon-1.15.0.js" />

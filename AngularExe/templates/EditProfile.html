@@ -1,17 +1,11 @@
-﻿<html lang="en" ng-app="eventsApp">
-<head>
-    <meta charset="utf-8">
-    <title>Event Registration</title>
-    <link rel="stylesheet" href="app/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="app/css/app.css" />
-</head>
-<body>
+﻿
 
-    <div class="container-fluid" ng-controller="EditProfileController">
+    
         <form name="profileForm">
             <div class="row-fluid">
                 <div class="span3">
-                    <img ng-src="{{getGravatarUrl(user.emailAddress)}}" />
+                    <gravartar email="{{user.emailAddress}}"/>
+                  
                 </div>
                 <div class="span3">
                     <fieldset>
@@ -43,19 +37,5 @@
                 </div>
             </div>
         </form>
-    </div>
 
 
-    <script src="app/lib/jquery.min.js"></script>
-    <script src="app/lib/angular/angular.js"></script>
-    <script src="app/lib/underscore-1.4.4.min.js"></script>
-    <script src="app/js/app.js"></script>
-    <script src="app/js/controllers/EditProfileController.js"></script>
-    <script src="app/js/services/GravatarUrlBuilder.js"></script>
-    <script src="app/lib/angular/angular-sanitize.js"></script>
-    <script src="app/lib/angular/angular-resource.js"></script>
-    <script src="app/js/filters.js"></script>
-    <script src="app/lib/bootstrap.min.js"></script>
-
-</body>
-</html>

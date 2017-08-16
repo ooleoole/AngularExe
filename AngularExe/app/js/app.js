@@ -1,6 +1,7 @@
 "use strict";
 
-var eventsApp = angular.module("eventsApp", ["ngSanitize", "ngResource", "ngRoute"])
+var eventsApp = angular.module("eventsApp",
+    ["ngSanitize", "ngResource", "ngRoute", "ngAnimate"])
     .config(function ($routeProvider, $locationProvider) {
         $routeProvider.when("/newEvent",
             {
@@ -28,6 +29,12 @@ var eventsApp = angular.module("eventsApp", ["ngSanitize", "ngResource", "ngRout
             {
                 templateUrl: "templates/SampleDirectives.html",
                 controller: "SampleDirectiveController"
+
+            });
+        $routeProvider.when("/editProfile",
+            {
+                templateUrl: "templates/EditProfile.html",
+                controller: "EditProfileController"
 
             });
 

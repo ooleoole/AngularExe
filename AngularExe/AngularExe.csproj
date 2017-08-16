@@ -108,10 +108,15 @@
     <Content Include="app\js\controllers\EventListController.js" />
     <Content Include="app\js\controllers\MainMenuController.js" />
     <Content Include="app\js\controllers\SampleDirectiveController.js" />
-    <Content Include="app\js\Directives\directives.js" />
+    <Content Include="app\js\Directives\DateKeys.js" />
+    <Content Include="app\js\Directives\eventThumbnail.js" />
+    <Content Include="app\js\Directives\gravartar.js" />
+    <Content Include="app\js\Directives\mySample.js" />
+    <Content Include="app\js\Directives\votingWidget.js" />
     <Content Include="app\js\services\GravatarUrlBuilder.js" />
+    <Content Include="app\lib\angular\angular-animate.js" />
     <Content Include="CacheSample.html" />
-    <Content Include="EditProfile.html" />
+    <Content Include="templates\EditProfile.html" />
     <Content Include="app\EditProfileFiles\Original\EditProfileController.js" />
     <Content Include="app\EditProfileFiles\Original\GravatarUrlBuilder.js" />
     <Content Include="app\favicon.ico" />
@@ -136,6 +141,8 @@
     <Content Include="app\lib\bootstrap.min.js" />
     <Content Include="app\lib\jquery.min.js" />
     <Content Include="app\lib\underscore-1.4.4.min.js" />
+    <Content Include="templates\directives\EventThumbnail.html" />
+    <Content Include="templates\directives\VotingWidget.html" />
     <Content Include="templates\EventDetails.html" />
     <Content Include="Global.asax" />
     <Content Include="Index.html" />

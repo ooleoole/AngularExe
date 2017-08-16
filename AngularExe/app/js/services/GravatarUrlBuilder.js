@@ -1,4 +1,4 @@
-﻿"use sttrict";
+﻿"use strict";
 
 eventsApp.factory("gravatarUrlBuilder", function () {
     return {

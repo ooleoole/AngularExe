@@ -97,9 +97,9 @@
     <Content Include="app\css\app.css" />
     <Content Include="app\css\bootstrap.min.css" />
     <Content Include="app\datepickerDirectiveFiles\app.css" />
-    <Content Include="app\datepickerDirectiveFiles\calendarHelper.js" />
-    <Content Include="app\datepickerDirectiveFiles\datepicker.html" />
-    <Content Include="app\datepickerDirectiveFiles\datepicker.js" />
+    <Content Include="app\js\services\calendarHelper.js" />
+    <Content Include="templates\directives\datepicker.html" />
+    <Content Include="app\js\Directives\datepicker.js" />
     <Content Include="app\EditProfileFiles\Finished\EditProfile.html" />
     <Content Include="app\EditProfileFiles\Finished\EditProfileController.js" />
     <Content Include="app\EditProfileFiles\Finished\GravatarUrlBuilder.js" />
@@ -107,10 +107,13 @@
     <Content Include="app\js\controllers\EditProfileController.js" />
     <Content Include="app\js\controllers\EventListController.js" />
     <Content Include="app\js\controllers\MainMenuController.js" />
+    <Content Include="app\js\controllers\NoRouteController.js" />
     <Content Include="app\js\controllers\SampleDirectiveController.js" />
+    <Content Include="app\js\Directives\collapsible.js" />
     <Content Include="app\js\Directives\DateKeys.js" />
     <Content Include="app\js\Directives\eventThumbnail.js" />
     <Content Include="app\js\Directives\gravartar.js" />
+    <Content Include="app\js\Directives\greeter.js" />
     <Content Include="app\js\Directives\mySample.js" />
     <Content Include="app\js\Directives\votingWidget.js" />
     <Content Include="app\js\services\GravatarUrlBuilder.js" />
